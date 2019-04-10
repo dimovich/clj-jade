@@ -5,7 +5,15 @@ A thin wrapper around [jade4j](https://github.com/neuland/jade4j) to promote use
 ## Artifacts
 
 ```clojure
-[clj-jade "0.1.7"]
+;; modify your deps.edn
+{:deps
+ {
+  ;; ... your other deps here...
+  
+  clj-jade {:git/url "https://github.com/dimovich/clj-jade.git"
+            :sha "def60c3c8dc08c6d3c1908dfadb993b9428b5318"}
+  }
+ }
 ```
 
 ## Example
